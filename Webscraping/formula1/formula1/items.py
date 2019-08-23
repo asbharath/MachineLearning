@@ -7,8 +7,16 @@
 
 import scrapy
 
+class Formula1Item(scrapy.Item):
+    # define the fields for your item here like:
 
-# class Formula1Item(scrapy.Item):
-#     # define the fields for your item here like:
-#     column_value = scrapy.Field()
-#     row_values = scrapy.Field()
+    # title_heading = scrapy.Field()
+    # table_heading = scrapy.Field()
+    grand_prix = scrapy.Field()
+    race_date = scrapy.Field()
+    winner = scrapy.Field()
+    constructor = scrapy.Field()
+    no_of_laps = scrapy.Field()
+    time_taken = scrapy.Field()
+
+
